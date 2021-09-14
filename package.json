@@ -10,7 +10,7 @@
         "sync",
         "files"
     ],
-    "bin": "./bin/sync.js",
+    "bin": "./bin/osssync.js",
     "author": "Lionad",
     "dependencies": {
         "aliyun-sdk": "^1.12.3",
