@@ -9,7 +9,7 @@ const CMDArgs = commandLineArgs(optionDefinitions)
 let syncOSS = require("../lib/oss.js")
 let currentDir = process.cwd()
 // get setting object
-let ossSetting = require(path.join(currentDir, "syncossConf.json"))
+let ossSetting = require(path.join(currentDir, ".osssync.json"))
 // console.log(ossSetting)
 if (CMDArgs.watch !== undefined) {
   ossSetting.keepWatching = CMDArgs.watch
