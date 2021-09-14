@@ -1,1 +1,1 @@
-module.exports = require('./lib/oss.js');
+module.exports = require('./lib/oss.js')
